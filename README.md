@@ -1,4 +1,6 @@
-- **Important:** If a mesh appears slightly see-through, go to its material's settings (in the Options tab on the right of the Shader Editor) and switch the Render Method to Dithered. Note: this does not seem to work for models with the `cine_` prefix — if anyone knows why, hit me up on Discord.
+***README***
+
+- **Important:** If a mesh appears slightly see-through, go to its material's settings (in the Options tab on the right of the Shader Editor) and switch the Render Method to Dithered. Note: this does not seem to work for some models i.e. cine_titus and astropath_female — if anyone knows why, hit me up on Discord.
 - Built for Blender 5.1. I'm not sure if it will work for previous versions.
 - Install as a normal Blender addon, then separately extract the `detail_maps` folder to wherever you want. Once the addon is installed and enabled, you will need to set the Detail Maps path in the N-Panel to wherever you placed that folder.
 - See the image below for proper export options from Index. Index does this automatically, but the textures must live in the same folder as your .fbx.
