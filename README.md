@@ -4,5 +4,7 @@
 - Built for Blender 5.1. I'm not sure if it will work for previous versions.
 - Install as a normal Blender addon, then separately extract the `detail_maps` folder to wherever you want. Once the addon is installed and enabled, you will need to set the Detail Maps path in the N-Panel to wherever you placed that folder.
 - See the image below for proper export options from Index. Index does this automatically, but the textures must live in the same folder as your .fbx.
+<img width="543" height="180" alt="image" src="https://github.com/user-attachments/assets/69eb7eb8-6a5e-4bb7-9731-35591c8db156" />
+
 - Detail Maps: If you want max fidelity, go into your shader node setup and check each material's Detail Map node. If it says "Detail Map Missing," it means my test exports did not need that texture and it was not included in the .zip. You will need to export it yourself from Index's texture section (check the .td for that texture in Notepad to get the exact name) into your Detail Maps folder, then re-import.
 - Emissive Divisor scales down the engine's emissive intensity values to Blender-friendly ranges — SM2 uses values up to 4500, while Blender expects roughly 0–50. The default of 100 works well for most models; lower it if emissives look too dim, raise it if they're blowing out.
