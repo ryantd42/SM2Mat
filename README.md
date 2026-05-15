@@ -1,4 +1,4 @@
-***README***
+# INSTRUCTIONS AND OTHER TIDBITS
 
 - **Important:** If a mesh appears slightly see-through, go to its material's settings (in the Options tab on the right of the Shader Editor) and switch the Render Method to Dithered. Note: this does not seem to work for some models i.e. cine_titus and astropath_female — if anyone knows why, hit me up on Discord.
 - Built for Blender 5.1. I'm not sure if it will work for previous versions.
